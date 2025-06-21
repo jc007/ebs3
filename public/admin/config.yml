@@ -3,6 +3,7 @@ backend:
   repo: jc007/ebs3 # Replace with your GitHub username/repo
   branch: main # Branch to update
   auth_type: implicit
+  client_id: Ov23liTdqjOo5IVReXaW
 
 # Optional: Use editorial workflow for content review
 publish_mode: editorial_workflow
