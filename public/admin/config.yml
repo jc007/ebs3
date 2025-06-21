@@ -2,6 +2,7 @@ backend:
   name: github
   repo: jc007/ebs3 # Replace with your GitHub username/repo
   branch: main # Branch to update
+  site_domain: jc007.github.io/ebs3
   auth_endpoint: https://decap-cms-oauth-provider.netlify.app/auth
 
 # Optional: Use editorial workflow for content review
