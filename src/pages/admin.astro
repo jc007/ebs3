@@ -1,0 +1,19 @@
+---
+// src/pages/admin.astro
+---
+<html>
+  <head>
+    <title>Content Manager</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      import('tinacms').then(({ TinaCMS }) => {
+        const cms = new TinaCMS({
+          clientId: import.meta.env.PUBLIC_TINA_CLIENT_ID,
+          branch: 'main',
+        });
+      });
+    </script>
+  </body>
+</html>
